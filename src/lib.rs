@@ -51,7 +51,7 @@ pub fn set_for_current(core_id: CoreId) {
 /// This represents a CPU core.
 #[derive(Copy, Clone)]
 pub struct CoreId {
-    id: usize,
+    pub id: usize,
 }
 
 // Linux Section
